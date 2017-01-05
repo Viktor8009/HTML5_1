@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <meta  charset="utf-8">
+        <!--CSS fileok beszúrása-->
+        <link rel="stylesheet" href="css/main.css">     
+    </head>
+
+    <body>
+        <!--Navigáció-->
+        <nav>
+            <a href="#" onclick="hideRegistration()">Főoldal</a> 
+            <a target="_blank" href="http://www.origo.hu">Origo</a>
+            <a href="#" onclick="showRegistration();">Regisztráció</a>
+            <a href="pages/about.html">Rólunk</a> 
+        </nav>
+        <!--/Navigáció-->
+        
+        <!--1.Szekció-->
+        <section id="section1">
+        
+            <!--Új bejegyzés-->
+            <article>
+                <br>
+                <h1>HTML5 tanfolyam a NetAcademia támogatásával</h1>
+                <img src="http://www.netacademia.hu/Picture/Logo" style="max-width:150px; 
+                      border:solid 5px #E0E0E0;" id="img1" class="test-images"/>
+            </article>
+            
+        </section>  
+        <!--/1.Szekció-->
+        
+        <!--2.szekció-->
+        <section id="section2">
+                <!--Regisztrációs űrlap-->
+                <h1>Regisztráció</h1>
+                <p><strong>Kérjük adja meg adatait!</strong></p>
+                <form novalidate method="post" action="http://www.nettuts.hu/post">
+                <label for="email1">E-mail cím:</label>
+                <input name="email1" type="email" id="email1" autofocus><br><br>
+                    
+                <label for="bd1">Születési idő</label>
+                <input name="bd1" type="date" id="age1" min="1972-03-25" max="1997-09-01"><br><br>
+                    
+                <label for="color1">Kedvenc szín:</label>
+                <input name="color1" type="color" id="color1"><br><br>
+                    
+                <label for="photo1">Profilkép:</label>
+                <input name="photo1" type="file" id="photo1"><br><br>
+                    
+                <label for="password1">Jelszó:</label>
+                <input name="password1" type="password" id="password1"><br><br>
+                    
+
+                <input type="submit" value="Regisztrálok">
+                </form>
+                <!--/Regisztrációs űrlap-->
+        </section>
+        <!--/2.szekció-->
+        
+            <div style="height:1000px;">&nbsp;</div>
+        
+        
+        
+        <!--lábléc-->
+        <footer style="position:fixed; left:0; right:0; bottom:0;">&copy; 2017 Csángó Viktor</footer>
+        <!--/lábléc-->
+        
+        
+        <!-- JS fileok beszúrása-->
+        <script src="js/main.js"></script>
+    
+    </body>
+</htm>
